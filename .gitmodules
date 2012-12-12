@@ -1,0 +1,3 @@
+[submodule "vendor"]
+	path = vendor
+	url = git://github.com/ratchetio/ratchetio-php.git
