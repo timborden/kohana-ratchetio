@@ -2,9 +2,10 @@
 
 application/bootstrap.php:
 
-    Ratchetio::init(array(
-        'access_token' => Kohana::$config->load('ratchetio.server_side_token'),
-        'environment' => $_SERVER['KOHANA_ENV'],
-        'root' => DOCROOT,
-        'person_fn' => 'function_here'
-    ), FALSE, FALSE);
+	Ratchetio::init(array(
+	    'access_token' => Kohana::$config->load('ratchetio.server_side_token'),
+	    'host' => '', // optional
+	    'environment' '', // optional
+	    'root' => DOCROOT, // optional
+	    'person_fn' => '' // optional
+	));
