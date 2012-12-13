@@ -8,4 +8,4 @@ application/bootstrap.php:
 	    'environment' '', // optional
 	    'root' => DOCROOT, // optional
 	    'person_fn' => '' // optional
-	));
+	), FALSE, FALSE);
